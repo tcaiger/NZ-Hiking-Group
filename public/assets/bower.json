@@ -1,0 +1,25 @@
+{
+  "name": "assets",
+  "version": "0.0.0",
+  "authors": [
+    "Tom <caigertom@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6",
+    "angular-animate": "~1.4.6",
+    "angular-resource": "~1.4.6",
+    "angular-route": "~1.4.6",
+    "font-awesome": "~4.4.0",
+    "foundation": "~5.5.2",
+    "jquery-validation": "~1.14.0",
+    "slick-carousel": "~1.5.8"
+  }
+}

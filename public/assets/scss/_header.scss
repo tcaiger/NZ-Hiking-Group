@@ -1,0 +1,114 @@
+.brand{
+	margin: 0.3em 0;
+	display: block;
+	width: 240px;
+	height: 100px;
+	background-image: url('../img/brand.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	@media(max-width: $small){
+		width: 160px;
+		height: 65px;
+	}
+}
+
+header{
+	h3 small,
+	.enquiry{
+		color: #999;
+	}
+ 	h3,
+	.fa-envelope-o{
+	margin: 0;
+	margin-bottom: -5px;
+	font-weight: bold;
+	}
+	p{
+		margin: 0;
+	}
+	.enquire{
+		@media(max-width: $small){
+			display: none;
+		}
+	}
+}
+
+nav{
+	background: #eee;
+	ul{
+		margin: 0;
+	}
+	li{
+		margin: 0.7em 0;
+	}
+	a{
+		text-transform: uppercase;
+		color: #999;
+		padding: 0.5em 2em 0.5em 0;
+		text-decoration: none;
+		@media(max-width: $small){
+			font-size: 0.8em;
+		}
+	}
+}
+.homepage-banner{
+	
+	.slick-slide{
+		height: 30em;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		@media(max-width: $medium){
+			height: 28em;
+		}
+		@media(max-width: $small){
+			height: 20em;
+		}
+	}
+	.slick-next{
+		display: none !important;
+	}
+	h1{
+		margin: 0;
+		text-shadow: rgb(80, 80, 80) 1px 1px 1px;
+		padding-top: 8em;
+		line-height: 1.2;
+		font-weight: 800;
+		color: white;
+		font-family: 'Raleway', sans-serif;
+		@media(max-width: $medium){
+			padding-top: 300px;
+		}
+		@media(max-width: $small){
+			padding-top: 200px;
+		}
+	}
+	h3.sub-heading{
+		color: white;
+		text-shadow: rgb(80, 80, 80) 1px 1px 1px;
+	}
+}
+.homepage-banner + .container{
+	margin-top: 3em;
+}
+
+ul.slick-dots{ margin: 0 !important;}
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before{
+	font-size: 20px !important;
+}
+
+
+.top-banner{
+	height: 200px;
+	margin: 0 0 2em;
+	background-image: url('../img/tramping.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	h1{
+		margin: 0;
+		padding-top: 1.5em;
+		color: white;
+	}
+}

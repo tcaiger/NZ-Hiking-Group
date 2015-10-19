@@ -1,0 +1,75 @@
+.bottom-banner{
+	margin: 4em 0 0;
+	padding: 2em 0 1em;
+	background: #8AAE44;
+	text-transform: uppercase;
+	.banner-content{
+		@media(max-width: $small){
+			flex-direction: column;
+		}
+	}
+	.newsletter{
+		display: flex;
+		@media(max-width: $small){
+			flex-direction: column;
+			align-items: center; 
+		}
+		input[type="email"]{
+			width: 250px;
+		}
+		input[type="submit"]{
+			max-width: 150px;
+		}
+	}
+	p{
+		color: white;
+		padding: 1.9em 2em 3em 0;
+		margin: 0;
+	}
+	
+}
+footer{
+	padding: 2em 0em 1em 0em;
+	background: $secondary-color;
+	.container{
+		position: relative;
+		h4, p, li, a{
+			color: white;
+		}
+		a{
+			font-size: 0.9em;
+		}
+	}
+	.foot-content{
+		@media(max-width: $small){
+			flex-direction: column;
+		}
+	}
+	.foot-text{
+		max-width: 400px;
+		padding-right: 2em;
+		@media(max-width: $small){
+			max-width: 100%;
+		}
+	}
+	.foot-details{
+		width:350px;
+		@media(max-width: $small){
+			width: 100%;
+		}
+	}
+	.foot-contact p{
+			margin-bottom: 5px;
+	}
+	.sitemap{
+		text-align: right;
+	}
+	.admin-login{
+		color: #B3B5B6;
+		border-bottom: 1px dotted #B3B5B6;
+		position: absolute;
+		bottom: 1em;
+		left: 1em;
+	}
+	
+}

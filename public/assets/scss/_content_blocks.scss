@@ -1,0 +1,46 @@
+
+.content-holder{
+	position: relative;
+	width: 16em;
+	margin: 1em 4em 1em 0;
+	h4{
+		margin-bottom: 0;
+	}
+	.trip-details{
+		margin: 0.5em 0;
+		text-transform: uppercase;
+	}
+}
+.image{
+	width: 16em;
+	height: 13em;
+}
+.screen{
+	top: 0;
+	left: 0;
+	width: 16em;
+	height: 13em;
+	background: $secondary-color;
+	opacity: 0;
+	position: absolute;
+	z-index: 9;
+	transition: all 0.3s;
+	&:hover{
+		cursor: pointer;
+		opacity: 0.8;
+	}
+	h4{
+		color: white;
+		margin-top: 35%;
+		text-align: center;
+	}
+}
+
+#publicMap{
+	width:30em;
+	height:28em;
+	@media(max-width: $small){
+		width: auto;
+		height: 26em;
+	}
+}

@@ -1,0 +1,21 @@
+ /* ==== Flexbox =======*/
+
+.flex{ display: flex; }    
+.flex-row{ flex-direction: row; }
+.flex-column{ flex-direction: column; } 
+.flex-wrap{ flex-wrap: wrap;}
+
+.flex-j-start{ justify-content: flex-start; }
+.flex-j-end{ justify-content: flex-end; }
+.flex-j-center{ justify-content: center; }
+.flex-j-between{ justify-content: space-between; }
+
+.flex-a-start{ align-items: flex-start; }
+.flex-a-end{ align-items: flex-end; }
+.flex-a-center{ align-items: center; }
+.flex-a-stretch{ align-items: stretch; } 
+
+.flex-1{ flex: 1; }
+.flex-2{ flex: 2; }
+.flex-3{ flex: 3; }
+.flex-4{ flex: 4; } 

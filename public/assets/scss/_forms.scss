@@ -1,0 +1,86 @@
+form, 
+.reg{
+	width: 30em;
+	@media(max-width: $small){
+		width: auto;
+	}
+}
+
+.reg-container{
+	min-height: 500px;
+}
+form.reg fieldset{
+	min-height: 25em;
+	.error{
+		margin: 0;
+		margin-top: -1em;
+		color: tomato;
+		font-size: 0.8em;
+	}
+}
+.reg{
+	p{
+		margin-bottom: 0;
+	}
+	input[type=checkbox]{
+		margin-bottom: 0;
+	}
+	.radios label{
+		@media(max-width: $small){
+			margin: 10px;
+		}
+	}
+	ul.pagination li{
+		a:nth-child(2){
+			display:none;
+		}
+		@media(max-width: $small){
+			a:nth-child(1){
+				display: none;
+			}
+			a:nth-child(2){
+				display: inline;
+			}
+		}
+		a{
+			font-size: 0.9em;
+		}
+	}
+}
+.container .contact-form {
+	border-right: 1px solid #ddd;
+	@media(max-width: $medium){
+		border-right: none;
+		margin-bottom: 3em;
+	}
+	.columns{
+		padding-left: 0;
+	}
+}
+// ng animate
+.view-container.ng-enter{
+	transition: opacity 0.3s;
+	opacity: 0;
+	.view-content{
+		transition: opacity 0.3s;
+		opacity: 0;
+	}
+}
+.view-container.ng-enter-active{
+	.view-content{
+		opacity: 1;
+	}
+}
+#map{
+	width:100%;
+	height:360px
+}
+.edit{
+	text-align: center;
+	&:hover{
+		cursor: pointer;
+		i{
+			color: tomato;
+		}
+	}
+}

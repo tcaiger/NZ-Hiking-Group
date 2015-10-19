@@ -1,0 +1,67 @@
+// Colors
+$primary-color: #EE7321;
+$secondary-color: #1C6E96;
+
+// Break Points
+$small: 44em;
+$medium: 62em;
+$large: 75em;
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	-webkit-font-smoothing: antialiased;
+}
+.container{
+	max-width: 62em;
+	margin: 0 auto;
+	padding: 0 1em;
+	h3{
+		color: $primary-color;
+	}
+	p{
+		color: #666;
+		font-size: 0.9em;
+	}
+	li{
+		list-style: none;
+	}
+	.text-block{
+		width: 16em;
+		margin-right: 4em;
+	}
+	.sub-nav{
+
+		dt{
+			margin-left: 0;
+		}
+	}
+	.contacts p{
+		margin: 0;
+	}
+}
+.home-image{
+	margin-top: -20px;
+	height: 210px;
+	width: 256px;
+	background-image: url('../img/home-page.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	@media(max-width: $medium){
+		margin-top: 2em;
+	}
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.file-thumbnail{
+    max-width: 200px; max-height: 150px; line-height: 20px; margin-bottom: 5px;
+}
+
+
+
